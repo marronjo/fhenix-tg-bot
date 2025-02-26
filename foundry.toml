@@ -1,0 +1,10 @@
+[profile.default]
+src = "contracts"
+out = "src/out"
+libs = ["node_modules", "lib"]
+remappings = [
+    "@fhenixprotocol/=node_modules/@fhenixprotocol/",
+    "@openzeppelin/=node_modules/@openzeppelin/",
+]
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
