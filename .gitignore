@@ -2,6 +2,7 @@
 !node_modules
 node_modules/*
 !node_modules/@fhenixprotocol/
+!node_modules/@openzeppelin/
 
 package-lock.json
 dist
