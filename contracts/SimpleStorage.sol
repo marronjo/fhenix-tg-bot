@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
-import { FHE, inEuint8, euint8 } from "@fhenixprotocol/contracts/FHE.sol";
-import { Permissioned, Permission } from "@fhenixprotocol/contracts/access/Permissioned.sol";
+import {FHE, inEuint8, euint8} from "@fhenixprotocol/contracts/FHE.sol";
+import {Permissioned, Permission} from "@fhenixprotocol/contracts/access/Permissioned.sol";
 
 contract SimpleStorage is Permissioned {
     uint256 public number;
