@@ -13,3 +13,7 @@ dist
 # Foundry
 cache
 lib
+
+!src/out
+src/out/*
+!src/out/SimpleStorage.sol/
